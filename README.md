@@ -1,4 +1,4 @@
-**# PLUGIN_NAME
+# PLUGIN_NAME
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE) 
 [![Travis](https://img.shields.io/travis/PotatoPowered/PLUGIN_NAME.svg?style=flat-square)](https://travis-ci.org/PotatoPowered/PLUGIN_NAME) 
 [![Codecov](https://img.shields.io/codecov/c/github/PotatoPowered/PLUGIN_NAME.svg?style=flat-square)](https://codecov.io/github/PotatoPowered/PLUGIN_NAME) 
