@@ -1,0 +1,33 @@
+{
+  "name": "potatopowered/PLUGIN_NAME",
+  "description": "The PLUGIN_NAME repository will...",
+  "type": "cakephp-plugin",
+  "keywords": ["PLUGIN_NAME","CakePHP"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "YOUR NAME",
+      "email": "YOUREMAIL@EMAIL.COM",
+      "role": "Lead Developer"
+    }
+    ],
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+    ,
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "cakephp/cakephp-codesniffer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PLUGIN_NAME\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PLUGIN_NAME\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
