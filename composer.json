@@ -1,5 +1,5 @@
 {
-  "name": "potatopowered/PLUGIN_NAME",
+  "name": "potatopowered/plugin-template",
   "description": "The PLUGIN_NAME repository will...",
   "type": "cakephp-plugin",
   "keywords": ["PLUGIN_NAME","CakePHP"],
