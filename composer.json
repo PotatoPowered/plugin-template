@@ -10,11 +10,11 @@
       "email": "YOUREMAIL@EMAIL.COM",
       "role": "Lead Developer"
     }
-    ],
+  ],
     "require": {
         "php": ">=5.4.16",
         "cakephp/cakephp": "~3.0",
-    ,
+    }
     "require-dev": {
         "phpunit/phpunit": "*",
         "cakephp/cakephp-codesniffer": "dev-master"
