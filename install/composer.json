@@ -1,17 +1,17 @@
 {
-  "name": "potatopowered/plugin-template",
-  "description": "The PluginTemplate project is designed for simplified setup of new standalone CakePHP 3.x Plugins",
+  "name": "potatopowered/{{plugin-name}}",
+  "description": "The {{plugin-name}} repository will...",
   "type": "cakephp-plugin",
   "keywords": [
-    "PluginTemplate",
+    "{{plugin-name}}",
     "CakePHP",
     "Potato Powered Software"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "Blake Sutton",
-      "email": "blakes@potatopowered.net",
+      "name": "{{developer-name}}",
+      "email": "{{developer-email}}",
       "role": "Lead Developer"
     }
   ],
@@ -25,17 +25,15 @@
   },
   "autoload": {
     "psr-4": {
-      "PluginTemplate\\": "src"
+      "{{plugin-name}}\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "PluginTemplate\\Test\\": "tests"
+      "{{plugin-name}}\\Test\\": "tests"
     }
   },
   "scripts": {
-    "post-install-cmd": "PluginTemplate\\Console\\Installer::postInstall",
-    "post-create-project-cmd": "PluginTemplate\\Console\\Installer::postInstall",
     "check": [
       "@test",
       "@cs-check"

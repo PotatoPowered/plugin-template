@@ -3,8 +3,8 @@ use Cake\Routing\RouteBuilder;
 use Cake\Routing\Router;
 
 Router::plugin(
-    'PLUGIN_NAME',
-    ['path' => '/PLUGIN_NAME'],
+    '{{plugin-name}}',
+    ['path' => '/{{plugin-name}}'],
     function (RouteBuilder $routes) {
         $routes->fallbacks('DashedRoute');
     }

@@ -100,4 +100,4 @@ Log::config([
     ]
 ]);
 
-Plugin::load('PLUGIN_NAME', ['path' => ROOT]);
+Plugin::load('{{plugin-name}}', ['path' => ROOT]);
