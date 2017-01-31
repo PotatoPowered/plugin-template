@@ -21,7 +21,7 @@ This plugin template aims to help setup a brand new open source CakePHP plugin w
 Clone this repository
 
 ```
-composer create-project --prefer-dist potatopowered/plugin-template [plugin name]
+composer create-project --stability=dev potatopowered/plugin-template [plugin name]
 ```
 
 ### Step two
